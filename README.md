@@ -1,27 +1,39 @@
-# K1K2Integration
+# Kendo UI: Integration of the jQuery and Angular Suites
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
+This project is generated with [Angular CLI](https://github.com/angular/angular-cli), version 1.0.0-rc.0.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Development Server
 
-## Code scaffolding
+1. Run `ng serve` for a dev server.    
+1. Navigate to `http://localhost:4200/`.    
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+The application reloads automatically if you change any of the source files.
 
-## Build
+## Code Scaffolding
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng generate component component-name` to generate a new component.
 
-## Running unit tests
+You can also use `ng generate directive/pipe/service/class/module`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Builds
 
-## Running end-to-end tests
+Run `ng build` to build the project. The build artifacts are stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Tests
 
-## Further help
+### Running Unit Tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `ng test` to execute the unit tests through [Karma](https://karma-runner.github.io).
+
+### Running End-to-End Tests
+
+Before running the tests, make sure that you are serving the application through `ng serve`.
+
+Run `ng e2e` to execute the end-to-end tests through [Protractor](http://www.protractortest.org/).
+
+## Further Resources
+
+To get more help on the Angular CLI Tool, either:
+
+* Use `ng help`, or
+* Check out the [Angular CLI `README.md` file](https://github.com/angular/angular-cli/blob/master/README.md).
