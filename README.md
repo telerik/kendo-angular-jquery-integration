@@ -31,9 +31,13 @@ Before running the tests, make sure that you are serving the application through
 
 Run `ng e2e` to execute the end-to-end tests through [Protractor](http://www.protractortest.org/).
 
-## Further Resources
+## Angular CLI Tool Support
 
 To get more help on the Angular CLI Tool, either:
 
 * Use `ng help`, or
 * Check out the [Angular CLI `README.md` file](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Suggested Links
+
+* [Guide on Kendo UI for jQuery and Angular Integration](http://www.telerik.com/kendo-angular-ui/components/framework/kendo-jquery)
