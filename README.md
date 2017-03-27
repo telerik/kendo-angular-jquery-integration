@@ -1,4 +1,4 @@
-# Kendo UI: Integration of the jQuery and Angular Suites
+# Kendo UI: Integration between the jQuery and Angular Suites
 
 This project is generated with [Angular CLI](https://github.com/angular/angular-cli), version 1.0.0-rc.0.
 
