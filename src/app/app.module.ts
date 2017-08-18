@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { OtherComponent } from './other.component';
 import { TestDatePickerComponent } from './test-date-picker.component';
+import { TestEditorComponent } from './test-editor.component';
 import { TestSliderComponent } from './test-slider.component';
 import { TestSchedulerComponent } from './test-scheduler.component';
 import { TestGridComponent } from './test-grid.component';
@@ -18,6 +19,7 @@ import '@progress/kendo-ui';
 const appRoutes: Routes = [
   { path: 'other', component: OtherComponent },
   { path: 'k1-date-picker', component: TestDatePickerComponent },
+  { path: 'k1-editor', component: TestEditorComponent },
   { path: 'k2-slider', component: TestSliderComponent },
   { path: 'k1-scheduler', component: TestSchedulerComponent },
   { path: 'k2-grid', component: TestGridComponent },
@@ -30,6 +32,7 @@ const appRoutes: Routes = [
     AppComponent,
     OtherComponent,
     TestDatePickerComponent,
+    TestEditorComponent,
     TestSliderComponent,
     TestSchedulerComponent,
     TestGridComponent
