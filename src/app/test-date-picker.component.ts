@@ -6,7 +6,7 @@ declare var kendo: any;
     selector: 'test-date-picker',
     template: `
         <h1 #h1Element>
-          {{ title | date }}
+          {{ selectedDate | date }}
         </h1>
         <p>Change the date via the Kendo UI for jQuery DatePicker</p>
         <input #datePicker />
@@ -16,7 +16,7 @@ export class TestDatePickerComponent implements AfterViewInit, OnDestroy {
     @ViewChild('h1Element') el: ElementRef;
     @ViewChild('datePicker') datePickerEl: ElementRef;
 
-    title: any = new Date();
+    selectedDate: Date = new Date();
 
     constructor(private hostEl: ElementRef) {}
 
@@ -25,7 +25,7 @@ export class TestDatePickerComponent implements AfterViewInit, OnDestroy {
 
         kendo.jQuery(this.datePickerEl.nativeElement).kendoDatePicker({
             change: (e) => {
-                this.title = e.sender.value();
+                this.selectedDate = e.sender.value();
             }
         });
     }
