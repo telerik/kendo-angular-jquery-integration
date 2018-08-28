@@ -12,6 +12,7 @@ import { TestDatePickerComponent } from './test-date-picker.component';
 import { TestEditorComponent } from './test-editor.component';
 import { TestSliderComponent } from './test-slider.component';
 import { TestSchedulerComponent } from './test-scheduler.component';
+import { TestGanttComponent } from './test-gantt.component';
 import { TestGridComponent } from './test-grid.component';
 import { TestSplitterComponent } from './test-splitter.component';
 
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
   { path: 'k1-editor', component: TestEditorComponent },
   { path: 'k2-slider', component: TestSliderComponent },
   { path: 'k1-scheduler', component: TestSchedulerComponent },
+  { path: 'k1-gantt', component: TestGanttComponent },
   { path: 'k2-grid', component: TestGridComponent },
   { path: 'k1-splitter', component: TestSplitterComponent },
   { path: '', redirectTo: '/k1-date-picker', pathMatch: 'full' },
@@ -37,6 +39,7 @@ const appRoutes: Routes = [
     TestEditorComponent,
     TestSliderComponent,
     TestSchedulerComponent,
+    TestGanttComponent,
     TestGridComponent,
     TestSplitterComponent
   ],
