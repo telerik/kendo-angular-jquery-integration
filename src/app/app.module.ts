@@ -9,11 +9,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { OtherComponent } from './other.component';
 import { TestDatePickerComponent } from './test-date-picker.component';
+import { TestDiagramComponent } from './test-diagram.component';
 import { TestEditorComponent } from './test-editor.component';
-import { TestSliderComponent } from './test-slider.component';
-import { TestSchedulerComponent } from './test-scheduler.component';
 import { TestGanttComponent } from './test-gantt.component';
 import { TestGridComponent } from './test-grid.component';
+import { TestSchedulerComponent } from './test-scheduler.component';
+import { TestSliderComponent } from './test-slider.component';
 import { TestSplitterComponent } from './test-splitter.component';
 
 import '@progress/kendo-ui';
@@ -25,6 +26,7 @@ const appRoutes: Routes = [
   { path: 'k2-slider', component: TestSliderComponent },
   { path: 'k1-scheduler', component: TestSchedulerComponent },
   { path: 'k1-gantt', component: TestGanttComponent },
+  { path: 'k1-diagram', component: TestDiagramComponent },
   { path: 'k2-grid', component: TestGridComponent },
   { path: 'k1-splitter', component: TestSplitterComponent },
   { path: '', redirectTo: '/k1-date-picker', pathMatch: 'full' },
@@ -36,11 +38,12 @@ const appRoutes: Routes = [
     AppComponent,
     OtherComponent,
     TestDatePickerComponent,
+    TestDiagramComponent,
     TestEditorComponent,
-    TestSliderComponent,
-    TestSchedulerComponent,
     TestGanttComponent,
     TestGridComponent,
+    TestSchedulerComponent,
+    TestSliderComponent,
     TestSplitterComponent
   ],
   imports: [
