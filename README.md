@@ -6,14 +6,8 @@ For detailed information on how to integrate the Kendo UI for jQuery and Kendo U
 
 ## Development Server
 
+1. Run `npm i` to install the dependencies.    
 1. Run `ng serve` for a dev server.    
-1. Navigate to `http://localhost:4200/`.    
-
-If you change any of the source files, the application reloads automatically.
-
-## Code Scaffolding
-
-To generate a new component, run `ng generate component component-name`. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Builds
 
