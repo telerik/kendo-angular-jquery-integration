@@ -1,3 +1,5 @@
+##  This repository is no longer updated. To access the current version, refer to the [`kendo-angular` repository](https://github.com/telerik/kendo-angular/tree/master/examples/projects/integration-jquery).
+
 # Kendo UI: jQuery and Angular Suites Integration
 
 This application is based on the [Angular CLI](https://github.com/angular/angular-cli).
